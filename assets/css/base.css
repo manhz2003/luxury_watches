@@ -1,0 +1,80 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .2
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.seperate {
+    margin-top: 10px;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(233, 227, 227);
+    position: absolute;
+}
+
+.btn-blue {
+    background-color: #019ad2;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 22px;
+    margin: 20px auto;
+    text-align: center;
+    width: 100px;
+}
+
+.btn-while {
+    margin-top: 20px;
+    color: #000;
+    border: 1px solid rgb(194, 187, 187);
+    width: 120px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.category {
+    text-align: center;
+    margin: 32px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.link-color-black {
+    text-decoration: none;
+    color: #000;
+}
+
+.link-color-white {
+    text-decoration: none;
+    color: #fff;
+}
