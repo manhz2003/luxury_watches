@@ -234,7 +234,7 @@
 .product-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 220px;
+    justify-content: center;
     margin-top: 10px;
 }
 
@@ -302,7 +302,7 @@
 .brand-box-container {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 11.5%;
+    justify-content: center;
 }
 
 .brand-box {
@@ -353,18 +353,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 180px;
+    margin: 0 48px;
 }
 
 .hot-box {
-    margin: 20px;
+    margin: 10px;
     border-bottom: 1px solid #e4dddd;
     padding-bottom: 15px;
 }
 
 .hot-img {
-    width: 330px;
-    height: 330px;
+    width: 345px;
+    height: 345px;
 }
 
 .hot-content {
