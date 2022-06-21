@@ -1,0 +1,128 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 78px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #dbd6d6;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+
+/* nav */
+
+.nav-list {
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.nav-icon-down {
+    padding-right: 21px;
+    font-size: 12px;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    padding-right: 3.5px;
+}
+
+.nav-item-link:hover {
+    border-bottom: 2px solid #000;
+}
+
+.img-logo {
+    width: 200px;
+    margin-right: 240px;
+}
+
+.container-icon {
+    margin-right: 100px;
+}
+
+.nav-icon-item {
+    padding: 0 10px;
+    font-size: 20px;
+    color: #0871cc;
+}
+
+
+/* subnav */
+
+.subnav-display {
+    display: none;
+}
+
+.subnav {
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #f7f3ed;
+    width: 100.5%;
+    left: -50px;
+    margin-top: 25px;
+    padding-top: 22px;
+    border-top: 0.01px solid rgb(230, 218, 203);
+    border-bottom: 1px solid rgb(245, 238, 227);
+    box-shadow: 1px 2px 9px 5px rgba(233, 221, 212, 0.75);
+    animation: fadeIn ease-in 0.4s;
+}
+
+.subnav::before {
+    position: absolute;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    top: -24px;
+    content: "";
+    display: block;
+}
+
+.nav-item:hover .subnav-display {
+    display: block;
+}
+
+.subnav-item {
+    list-style: none;
+    margin-right: 145px;
+}
+
+.subnav-item-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 38px;
+}
+
+.subnav-more {
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+.subnav-more-item {
+    padding: 8px 0;
+}
+
+.subnav-more-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+}
+
+.subnav-more-link:hover {
+    color: red;
+}
