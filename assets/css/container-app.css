@@ -1,0 +1,12 @@
+.sell-app {
+    width: 78%;
+    margin: 0 auto;
+    background-color: #000;
+    height: 20px;
+    color: #000;
+    margin-top: 262px;
+}
+
+.sell-nav {
+    display: flex;
+}
