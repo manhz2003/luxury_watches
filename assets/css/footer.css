@@ -1,3 +1,8 @@
+.footer {
+    border-top: 1px solid rgb(225, 218, 218);
+    margin-top: 35px;
+}
+
 .footer-list {
     display: flex;
     margin-top: 50px;
