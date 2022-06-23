@@ -1,5 +1,5 @@
 .sell-banner {
-    background-image: url(../img/SELL-BANNER.jpg);
+    background-image: url(../img/SELL-BANNER-2.jpg);
     animation: zoom-fade 2.5s cubic-bezier(.26, .54, .32, 1) 0s forwards;
     filter: brightness(50%);
     height: 27%;
