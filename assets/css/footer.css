@@ -12,6 +12,7 @@
 .footer-item {
     list-style: none;
     margin-left: 80px;
+    text-decoration: none;
 }
 
 .footer-item-more {
