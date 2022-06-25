@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thanh toán sản phẩm</title><link rel="stylesheet" href="./assets/css/base.css">
+    <title>Thanh toán sản phẩm</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.0.0-web/css/all.css">
     <link rel="stylesheet" href="./assets/css/pay.css">
 </head>
+
 <body>
     <div class="header">
         <div class="nav">
@@ -508,38 +511,63 @@
                 <div class="pay-index">Đặt hàng </div> <i class="pay-icon fa-solid fa-angle-right"></i>
                 <div class="pay-index">Thông tin</div> <i class="pay-icon fa-solid fa-angle-right"></i>
                 <div class="pay-index">Bước cuối cùng</div>
-            </div> 
-        <div class="pay-box">
-            <div class="pay-box-heading">
-                Phương thức thanh toán
             </div>
-            <div class="pay-item">
-                    <div style="display: flex; margin-bottom: 15px; border-bottom: 1px solid rgb(163, 160, 160); padding-bottom: 15px;"><input type="radio" checked="checked" name="radio" class="pay-radio">
+            <div class="pay-box">
+                <div class="pay-box-heading">
+                    Phương thức thanh toán
+                </div>
+                <div class="pay-item">
+                    <div style="display: flex; margin-bottom: 18px; border-bottom: 1px solid #ece6e6; padding-bottom: 15px;"><input type="radio" checked="checked" name="radio" class="pay-radio">
                         <div style="margin-left: 12px;">Thanh toán khi nhận hàng</div>
+                    </div>
+                    <div style="display: flex; margin-bottom: 28px;"><input type="radio" checked="checked" name="radio" class="pay-radio">
+                        <div style="margin-left: 12px;">Chuyển khoản ngân hàng</div>
+                    </div>
+                    <div class="bank-box">
+                        <div><img src="./assets/img/BANK.png" alt="" class="pay-bank-img"></div>
+                        <div>
+                            <div class="bank-content"><b>Vietcombank - chi nhánh Ba Vì, Hà Nội</b></div>
+                            <div class="bank-content">STK: 0988668866888 - Nguyễn Thế Mạnh</div>
                         </div>
-                        <div style="display: flex; margin-bottom: 28px;"><input type="radio" checked="checked" name="radio" class="pay-radio">
-                            <div style="margin-left: 12px;">Chuyển khoản ngân hàng</div>
-                            </div>
-                <div class="bank-box">
-                    <div><img src="./assets/img/BANK.png" alt="" class="pay-bank-img"></div>
-                    <div>
-                    <div class="bank-content"><b>Vietcombank - chi nhánh Nam Hà Nội</b></div>
-                    <div class="bank-content">STK: 1029996789 - Phạm Khắc Nam</div>
+                    </div>
+                    <div style="margin-top: 22px;">
+                        <div style="display: flex; border-top: 1px solid #ece6e6; padding-top: 15px; "><input type="radio" checked="checked" name="radio" class="pay-radio">
+                            <div style="margin-left: 12px;">Mua trước trả sau qua Fundiin</div>
+                        </div>
+                        <div class="pay-sell">% Giảm 60.000đ (*)</div>
                     </div>
                 </div>
-                        <div style="margin-top: 22px;">
-                            <div style="display: flex; border-top: 1px solid rgb(163, 160, 160); padding-top: 15px; "><input type="radio" checked="checked" name="radio" class="pay-radio">
-                                <div style="margin-left: 12px;">Mua trước trả sau qua Fundiin</div>
-                                </div>
-                                <div class="pay-sell">% Giảm 60.000đ (*)</div>
-                        </div>
             </div>
-        </div> 
-       
+            <div class="pay-category-box">
+                <div class="pay-category"></div>
+                <div class="pay-category-text">VÀ</div>
+            </div>
+            <div class="form">
+                <div class="form-heading">
+                    Thông tin cá nhân
+                </div>
+                <input type="text" placeholder="Số điện thoại">
+                <div class="form-heading">Địa chỉ thanh toán</div>
+                <input type="text" placeholder="Họ tên của bạn">
+                <input type="text" placeholder="xóm/số nhà, đường, phường/xã">
+                <input type="text" placeholder="Gmail (nếu có)">
+                <input type="text" placeholder="Ghi chú (nếu cần)">
+            </div>
         </div>
         <div class="pay-app-right">
-                
+            <div class="pay-product">
+                <div class="pay-item-1">
+                    <div><img src="./assets/img/MAN-4.jpg" alt="" class="pay-img-product"></div>
+                    <div class="pay-product-content">
+                        <div class="pay-num-index">1</div>
+                        <div class="pay-prduct-name">Casio AE-1200WHD- <br>1AVDF</div>
+                        <div class="pay-product-price-num">1.020.240 ₫ x 1</div>
+                        <div class="pay-product-price">1.020.240 ₫</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>

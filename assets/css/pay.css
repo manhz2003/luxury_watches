@@ -1,47 +1,52 @@
-.pay-app{
-    width: 50%;
+.pay-app {
+    width: 60%;
     margin: 0 auto;
-    background-color: aquamarine;
+    display: flex;
 }
 
-.pay-app-left{
+.pay-app-left {
     width: 65%;
-    background-color: rgb(255, 255, 255);
 }
 
-.pay-index-container{
+.pay-app-right {
+    width: 35%;
+    background-color: #f8f8f8;
+}
+
+.pay-index-container {
     padding-top: 110px;
     display: flex;
 }
 
-.pay-index{
+.pay-index {
     margin: 0 10px;
     font-weight: 500;
     font-size: 16px;
     cursor: default;
 }
 
-.pay-index:first-child{
-    color: #c10958;
+.pay-index:first-child {
+    color: #bb0909;
     margin-left: 0;
 }
 
-.pay-box{
-    border: 1px solid rgb(163, 160, 160);
+.pay-box {
+    border: 1px solid #ece6e6;
     box-shadow: 0 1px 2px hsla(0, 6%, 35%, 0.05);
-    margin-top: 40px;
+    margin-top: 50px;
     position: relative;
     border-radius: 6px;
-    font-size: 20px;
     cursor: default;
+    margin-right: 60px;
 }
 
-.pay-radio{
+.pay-radio {
     margin-top: 3px;
     font-size: 10px;
     width: 20px;
     height: 20px;
 }
+
 input[type='radio']:checked:after {
     width: 15px;
     height: 15px;
@@ -52,38 +57,43 @@ input[type='radio']:checked:after {
     border: 2px solid rgb(255, 255, 255);
 }
 
-.pay-box-heading{
+.pay-box-heading {
     position: absolute;
     top: -16px;
-    left: 33%;
+    left: 31%;
     background-color: #fff;
+    padding: 0 20px;
 }
 
-.pay-item{
-   padding: 20px 50px 35px 25px;
+.pay-item {
+    padding: 20px 50px 35px 25px;
 }
 
-.pay-icon{
+.pay-icon {
     color: #808080;
     font-weight: 800;
     margin-top: 2px;
 }
 
-.bank-box{
+.bank-box {
     display: flex;
-    border: 1px solid #333;
     border-radius: 6px;
     margin: 16px 10px 28px 0;
-    border: 1px solid rgb(163, 160, 160);
+    border: 1px solid #cccccc;
+    padding: 4px;
 }
 
-.pay-bank-img{
+.pay-bank-img {
     width: 50px;
     height: 50px;
     padding: 4px;
 }
 
-.pay-sell{
+.bank-content {
+    line-height: 28px;
+}
+
+.pay-sell {
     display: flex;
     background-color: #cc2727;
     color: #fff;
@@ -94,3 +104,54 @@ input[type='radio']:checked:after {
     margin-left: 34px;
 }
 
+.pay-category-box {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.pay-category {
+    border: 1px solid #ece6e6;
+    width: 89%;
+}
+
+.pay-category-text {
+    background-color: #fff;
+    width: 55px;
+    margin: 0 auto;
+    position: relative;
+    left: -7%;
+    top: -10px;
+}
+
+.pay-item-1 {
+    margin: 25px 0 0 40px;
+    display: flex;
+}
+
+.pay-img-product {
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+    border: 1px solid #dfd7d7;
+    border-radius: 8px;
+    position: relative;
+}
+
+.pay-num-index {
+    background-color: #7f7f7f;
+    color: #fff;
+    width: 20px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 50%;
+    position: absolute;
+    top: 114px;
+    left: 64%;
+    line-height: 20px;
+}
+
+.pay-product-content {
+    margin-top: 100px;
+    margin-left: 20px;
+    line-height: 24px;
+}
