@@ -2,16 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Các thương hiệu nổi tiếng</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.0.0-web/css/all.css">
+    <meta charset="utf-8">
+    <meta name="author" content="Kodinger">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Đăng nhập tài khoản</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/login.css">
     <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/menu.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.0.0-web/css/all.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <div class="nav">
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="./menu.html" class="nav-item-link" style="color:#056fcc;font-weight: 600;">Menu</a>
+                    <a href="./menu.html" class="nav-item-link">Menu</a>
                     <i class="nav-icon-down fa-solid fa-angle-down"></i>
                     <div class="subnav-display">
                         <ul class="subnav">
@@ -506,133 +507,61 @@
         </div>
 
     </div>
-    <div style="text-align: center;
-    padding: 110px 0 19px 0;
-    font-size: 18px;
-    font-weight: 700;">
-        Thương hiệu đồng hồ
-    </div>
-    <div class="brand-box-container">
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;"><img src="./assets/img/BRAND-1.jpg" alt="" class="brand-img"></div>
-                    <div class="brand-content">Đồng Hồ Casio</div>
+    <div class="my-login-page">
+        <section class="h-100">
+            <div class="container h-100">
+                <div class="row justify-content-md-center h-100">
+                    <div class="card-wrapper">
+                        <div class="brand">
+                            <img src="./assets/img/BRAND-10.jpg" alt="logo">
+                        </div>
+                        <div class="card fat">
+                            <div class="card-body">
+                                <h4 class="card-title">Đăng nhập</h4>
+                                <form method="POST" class="my-login-validation" novalidate="">
+                                    <div class="form-group">
+                                        <label for="email">Địa chỉ E-Mail</label>
+                                        <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+                                        <div class="invalid-feedback">
+                                            Bạn chưa nhập E-mail
+                                        </div>
+                                    </div>
 
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-2.jpg" alt="" class="brand-img"></div>
-                    <div class="brand-content">Đồng Hồ Citizen</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-3.jpg" alt="" class="brand-img">
+                                    <div class="form-group">
+                                        <label for="password">Mật khẩu</label>
+                                        <input id="password" type="password" class="form-control" name="password" required data-eye>
+                                        <div class="invalid-feedback">
+                                            Bạn chưa nhập Mật khẩu
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="custom-checkbox custom-control">
+                                            <input type="checkbox" name="remember" id="remember" class="custom-control-input">
+                                            <label for="remember" class="custom-control-label">Nhớ mật khẩu</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group m-0">
+                                        <button type="submit" class="btn btn-primary btn-block">
+                                            Đăng nhập
+                                        </button>
+                                    </div>
+                                    <div class="mt-4 text-center">
+                                        Đăng ký tài khoản tại đây <a href="register.html" style="color:#147fb1;"><b> Đăng Ký</b></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="brand-content">Đồng Hồ Orient</div>
                 </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-4.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Đồng Hồ Seiko</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-5.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Đồng Hồ Tissot</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-6.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Đồng Hồ SRWatch</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-7.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Frederique Constant</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchfemale.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-8.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Đồng Hồ Longines</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-9.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Đồng Hồ Bulova</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-10.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Đồng Hồ Freelook</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-11.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Đồng Hồ Movado</div>
-                </div>
-            </a>
-        </div>
-        <div class="brand-box">
-            <a href="./watchchildren.html">
-                <div class="brand-img-wrap">
-                    <div style=" overflow: hidden;">
-                        <img src="./assets/img/BRAND-12.jpg" alt="" class="brand-img">
-                    </div>
-                    <div class="brand-content">Đồng Hồ Mido</div>
-                </div>
-            </a>
-        </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="./assets/javascript/my-login.js"></script>
     </div>
-    <div class="footer">
+    <div class="footer" style="border: none;">
         <ul class="footer-list">
             <li class="footer-item">
                 <ul class="footer-list-more">
