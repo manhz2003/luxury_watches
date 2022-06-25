@@ -111,7 +111,7 @@ input[type='radio']:checked:after {
 
 .pay-category {
     border: 1px solid #ece6e6;
-    width: 89%;
+    width: 91%;
 }
 
 .pay-category-text {
@@ -124,15 +124,15 @@ input[type='radio']:checked:after {
 }
 
 .pay-item-1 {
-    margin: 25px 0 0 40px;
+    margin: 25px 0 0 32px;
     display: flex;
 }
 
 .pay-img-product {
-    width: 80px;
-    height: 80px;
+    width: 65px;
+    height: 65px;
     margin-top: 100px;
-    border: 1px solid #dfd7d7;
+    border: 1px solid #ece6e6;
     border-radius: 8px;
     position: relative;
 }
@@ -145,13 +145,146 @@ input[type='radio']:checked:after {
     padding: 2px;
     border-radius: 50%;
     position: absolute;
-    top: 114px;
-    left: 64%;
+    top: 116px;
+    left: 63.5%;
     line-height: 20px;
 }
 
 .pay-product-content {
-    margin-top: 100px;
+    margin-top: 96px;
     margin-left: 20px;
     line-height: 24px;
+}
+
+.pay-product-price-2 {
+    position: absolute;
+    left: 75%;
+    top: 60%;
+}
+
+.pay-item-2 {
+    position: relative;
+    display: flex;
+    top: -110px;
+    margin: 25px 0 0 32px;
+    border-bottom: 1px solid #ece6e6;
+    padding-bottom: 26px;
+    width: 85%;
+}
+
+.pay-num-index-2 {
+    background-color: #7f7f7f;
+    color: #fff;
+    width: 20px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 50%;
+    position: absolute;
+    top: 91px;
+    left: 15.5%;
+    line-height: 20px;
+}
+
+.pay-product-price {
+    position: absolute;
+    left: 74%;
+    top: 16%;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+}
+
+.btn-apply {
+    background-color: #1175c0;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0 20px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-apply:hover {
+    background-color: #0d5891;
+    cursor: pointer;
+}
+
+.pay-sell-input {
+    border-radius: 5px;
+    border: 1px solid #ece6e6;
+    padding: 16px 18px;
+}
+
+.total-money {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -40px;
+    border-bottom: 1px solid #ece6e6;
+    padding-bottom: 26px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.total-pay {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -18px;
+    font-weight: 600;
+}
+
+#city {
+    width: 91.2%;
+    height: 45px;
+    margin: 10px 0;
+    border: 1px solid #ece6e6;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+}
+
+.form-heading {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.pay-input {
+    margin: 10px 0;
+    width: 88%;
+    padding: 10px;
+    border: 1px solid #d6d0d0;
+    border-radius: 6px;
+}
+
+.input-check {
+    accent-color: #e74c3c;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    margin-top: 3px;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    border: 1px solid #ece6e6;
+}
+
+.complete {
+    background-color: #1175c0;
+    text-align: center;
+    width: 170px;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 30px;
+    padding: 20px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.complete:hover {
+    background-color: #0d5891;
 }
